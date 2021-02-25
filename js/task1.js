@@ -10,3 +10,8 @@ const colors = [
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
+
+const startBtnRef = document.querySelector('button[data-action="start"]');
+const stopBtnRef = document.querySelector('button[data-action="stop"]');
+console.dir(startBtnRef);
+console.dir(stopBtnRef);
